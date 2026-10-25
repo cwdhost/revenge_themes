@@ -1,0 +1,154 @@
+{
+  "name": "Moss & Cocoa",
+  "description": "Muted moss greens, earthy browns, and soft cream text.",
+  "authors": [
+    {
+      "name": "ChatGPT"
+    }
+  ],
+  "semanticColors": {
+    "BACKGROUND_PRIMARY": [
+      "#20251f",
+      "#20251f"
+    ],
+    "BACKGROUND_SECONDARY": [
+      "#292f27",
+      "#292f27"
+    ],
+    "BACKGROUND_SECONDARY_ALT": [
+      "#343b30",
+      "#343b30"
+    ],
+    "BACKGROUND_TERTIARY": [
+      "#343b30",
+      "#343b30"
+    ],
+    "BACKGROUND_MOBILE_PRIMARY": [
+      "#20251f",
+      "#20251f"
+    ],
+    "BACKGROUND_MOBILE_SECONDARY": [
+      "#292f27",
+      "#292f27"
+    ],
+    "BACKGROUND_NESTED_FLOATING": [
+      "#292f27",
+      "#292f27"
+    ],
+    "BACKGROUND_ACCENT": [
+      "#9caf88",
+      "#9caf88"
+    ],
+    "BACKGROUND_MODIFIER_HOVER": [
+      "#292f27",
+      "#292f27"
+    ],
+    "BACKGROUND_MODIFIER_ACTIVE": [
+      "#46513f",
+      "#46513f"
+    ],
+    "BACKGROUND_MODIFIER_SELECTED": [
+      "#343b30",
+      "#343b30"
+    ],
+    "BACKGROUND_MODIFIER_ACCENT": [
+      "#343b30",
+      "#343b30"
+    ],
+    "TEXT_NORMAL": [
+      "#e5e5d8",
+      "#e5e5d8"
+    ],
+    "TEXT_MUTED": [
+      "#b3b9a8",
+      "#b3b9a8"
+    ],
+    "TEXT_LINK": [
+      "#9caf88",
+      "#9caf88"
+    ],
+    "HEADER_PRIMARY": [
+      "#e5e5d8",
+      "#e5e5d8"
+    ],
+    "HEADER_SECONDARY": [
+      "#b3b9a8",
+      "#b3b9a8"
+    ],
+    "INTERACTIVE_NORMAL": [
+      "#b3b9a8",
+      "#b3b9a8"
+    ],
+    "INTERACTIVE_HOVER": [
+      "#9caf88",
+      "#9caf88"
+    ],
+    "INTERACTIVE_ACTIVE": [
+      "#e5e5d8",
+      "#e5e5d8"
+    ],
+    "INTERACTIVE_MUTED": [
+      "#6f7968",
+      "#6f7968"
+    ],
+    "CHANNELS_DEFAULT": [
+      "#b3b9a8",
+      "#b3b9a8"
+    ],
+    "INPUT_BACKGROUND": [
+      "#292f27",
+      "#292f27"
+    ],
+    "CHANNEL_ICON": [
+      "#b3b9a8",
+      "#b3b9a8"
+    ],
+    "CHAT_BACKGROUND": [
+      "#20251f",
+      "#20251f"
+    ],
+    "CARD_PRIMARY_BG": [
+      "#292f27",
+      "#292f27"
+    ],
+    "CARD_SECONDARY_BG": [
+      "#343b30",
+      "#343b30"
+    ],
+    "SPOILER_HIDDEN_BACKGROUND": [
+      "#46513f",
+      "#46513f"
+    ],
+    "THREAD_CHANNEL_SPINE": [
+      "#46513f",
+      "#46513f"
+    ]
+  },
+  "rawColors": {
+    "BRAND_260": "#788f68",
+    "BRAND_300": "#9caf88",
+    "BRAND_360": "#9caf88",
+    "BRAND_500": "#9caf88",
+    "BRAND_560": "#788f68",
+    "BRAND_630": "#343b30",
+    "BRAND_730": "#20251f",
+    "PRIMARY_100": "#e5e5d8",
+    "PRIMARY_200": "#d1d5c6",
+    "PRIMARY_300": "#b3b9a8",
+    "PRIMARY_360": "#929b88",
+    "PRIMARY_400": "#6f7968",
+    "PRIMARY_500": "#46513f",
+    "PRIMARY_600": "#343b30",
+    "PRIMARY_630": "#292f27",
+    "PRIMARY_660": "#20251f",
+    "PRIMARY_700": "#1b201a",
+    "PRIMARY_800": "#151914",
+    "GREEN_300": "#9caf88",
+    "GREEN_500": "#788f68",
+    "ORANGE_300": "#c69b70",
+    "RED_300": "#c97868",
+    "YELLOW_300": "#d5c17a",
+    "BLUE_300": "#8eaaa0"
+  },
+  "spec": 2
+}

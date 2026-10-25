@@ -1,0 +1,100 @@
+/**
+ * @name Moss & Cocoa
+ * @author ChatGPT
+ * @description A simple green-and-brown Discord recolor for Vencord.
+ * @version 1.0.0
+ */
+
+/* Standalone theme: no external imports required. */
+:root,
+.theme-dark,
+.theme-light {
+  /* Moss & cocoa palette */
+  --mc-bg: #202a22;
+  --mc-panel: #29362b;
+  --mc-panel-alt: #1a231c;
+  --mc-hover: #354536;
+  --mc-green: #a8bd91;
+  --mc-green-strong: #7f9f69;
+  --mc-brown: #c49a72;
+  --mc-text: #e5e2d5;
+  --mc-muted: #b1b6a6;
+
+  /* Discord semantic variables (legacy + current names) */
+  --brand-500: #7f9f69;
+  --brand-560: #6e8e5a;
+  --brand-600: #5c794b;
+  --brand-experiment: #7f9f69;
+  --brand-experiment-560: #6e8e5a;
+
+  --background-primary: var(--mc-bg);
+  --background-secondary: var(--mc-panel);
+  --background-secondary-alt: #243027;
+  --background-tertiary: var(--mc-panel-alt);
+  --background-accent: #405741;
+  --background-floating: #29362b;
+  --background-mobile-primary: var(--mc-bg);
+  --background-mobile-secondary: var(--mc-panel);
+
+  --background-base-low: #202a22;
+  --background-base-lower: #1a231c;
+  --background-base-lowest: #151c17;
+  --background-surface-high: #29362b;
+  --background-surface-higher: #354536;
+  --background-surface-highest: #405741;
+  --background-modifier-hover: #a8bd9118;
+  --background-modifier-active: #a8bd9128;
+  --background-modifier-selected: #a8bd9133;
+  --background-modifier-accent: #a8bd9120;
+  --background-message-hover: #a8bd910d;
+
+  --channeltextarea-background: #18211a;
+  --input-background: #29362b;
+  --modal-background: #202a22;
+  --modal-footer-background: #1a231c;
+  --activity-card-background: #29362b;
+  --deprecated-card-bg: #1a231ccc;
+
+  --text-normal: var(--mc-text);
+  --text-muted: var(--mc-muted);
+  --header-primary: #eee9dc;
+  --header-secondary: #c3c2b4;
+  --interactive-normal: #c2cdb6;
+  --interactive-hover: #eee9dc;
+  --interactive-active: #ffffff;
+  --interactive-muted: #777f73;
+
+  --scrollbar-auto-thumb: #62765b;
+  --scrollbar-auto-track: #1a231c;
+  --scrollbar-thin-thumb: #62765b;
+  --scrollbar-thin-track: transparent;
+
+  --mention-color: var(--mc-brown);
+  --mention-color-bar: #c49a72;
+  --background-mentioned: #c49a7218;
+  --background-mentioned-hover: #c49a7228;
+  --background-message-highlight: #c49a7218;
+  --background-message-highlight-hover: #c49a7228;
+
+  --info-warning-foreground: #d2aa7b;
+  --status-positive: #8dbb83;
+  --status-warning: #d2aa7b;
+  --status-danger: #d17f6e;
+}
+
+/* Keep the palette dark even if Discord's selected theme class changes. */
+html,
+body,
+#app-mount {
+  background-color: #202a22;
+}
+
+/* Small finishing touches */
+::selection {
+  background: #7f9f6966;
+}
+
+.theme-dark .mentioned-3m7f9J,
+[class*="mentioned"] {
+  --background-mentioned: #c49a7218;
+}

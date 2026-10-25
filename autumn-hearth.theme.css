@@ -1,0 +1,101 @@
+/**
+ * @name Autumn Hearth
+ * @author ChatGPT
+ * @description A cozy autumn Discord recolor with burnt orange, maple, and chestnut tones.
+ * @version 1.0.0
+ */
+
+/* Standalone Vencord theme — no external imports required. */
+:root,
+.theme-dark,
+.theme-light {
+  /* Autumn palette */
+  --autumn-bg: #29211e;
+  --autumn-panel: #352923;
+  --autumn-panel-alt: #211a18;
+  --autumn-hover: #493329;
+  --autumn-maple: #d58a4a;
+  --autumn-rust: #b85e3c;
+  --autumn-cream: #f0e2cd;
+  --autumn-muted: #c1ad98;
+  --autumn-gold: #d6b46a;
+
+  /* Brand and accent colors */
+  --brand-500: #d58a4a;
+  --brand-560: #bd713c;
+  --brand-600: #9e5932;
+  --brand-experiment: #d58a4a;
+  --brand-experiment-560: #bd713c;
+
+  /* Discord backgrounds */
+  --background-primary: var(--autumn-bg);
+  --background-secondary: var(--autumn-panel);
+  --background-secondary-alt: #30241f;
+  --background-tertiary: var(--autumn-panel-alt);
+  --background-accent: #66452f;
+  --background-floating: #352923;
+  --background-mobile-primary: var(--autumn-bg);
+  --background-mobile-secondary: var(--autumn-panel);
+
+  /* Newer Discord surface variables */
+  --background-base-low: #29211e;
+  --background-base-lower: #211a18;
+  --background-base-lowest: #191412;
+  --background-surface-high: #352923;
+  --background-surface-higher: #493329;
+  --background-surface-highest: #66452f;
+  --background-modifier-hover: #d58a4a18;
+  --background-modifier-active: #d58a4a28;
+  --background-modifier-selected: #d58a4a35;
+  --background-modifier-accent: #d58a4a20;
+  --background-message-hover: #f0e2cd0d;
+
+  /* Chat, inputs, and cards */
+  --channeltextarea-background: #211a18;
+  --input-background: #352923;
+  --modal-background: #29211e;
+  --modal-footer-background: #211a18;
+  --activity-card-background: #352923;
+  --deprecated-card-bg: #211a18cc;
+
+  /* Text and interactive states */
+  --text-normal: var(--autumn-cream);
+  --text-muted: var(--autumn-muted);
+  --header-primary: #fff0dc;
+  --header-secondary: #d3bca5;
+  --interactive-normal: #e0b58b;
+  --interactive-hover: #fff0dc;
+  --interactive-active: #ffffff;
+  --interactive-muted: #89776a;
+
+  /* Scrollbars */
+  --scrollbar-auto-thumb: #80543b;
+  --scrollbar-auto-track: #211a18;
+  --scrollbar-thin-thumb: #80543b;
+  --scrollbar-thin-track: transparent;
+
+  /* Mentions and highlights */
+  --mention-color: var(--autumn-gold);
+  --mention-color-bar: #d6b46a;
+  --background-mentioned: #d6b46a18;
+  --background-mentioned-hover: #d6b46a2b;
+  --background-message-highlight: #d6b46a18;
+  --background-message-highlight-hover: #d6b46a2b;
+
+  /* Status accents */
+  --info-warning-foreground: #e1b36c;
+  --status-positive: #91b77c;
+  --status-warning: #e1b36c;
+  --status-danger: #d97860;
+}
+
+/* Keep the warm palette applied across Discord's main root. */
+html,
+body,
+#app-mount {
+  background-color: #29211e;
+}
+
+::selection {
+  background: #d58a4a66;
+}
